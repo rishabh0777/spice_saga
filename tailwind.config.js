@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}","index.html"],
   darkMode: 'class', // Enable dark mode class support
   theme: {
     extend: {
@@ -16,6 +16,9 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif'],
         'source-sans-pro': ['Source Sans Pro', 'sans-serif'],
       },
+      screens:{
+        xsm:'375px'
+      }
     },
   },
   plugins: [],
