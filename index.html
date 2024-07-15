@@ -14,7 +14,7 @@
    
 </head>
 <body class="xsm:w-screen lg:w-screen">
-    <main class="w-[100vw] lg:h-[470vh] xsm:h-[450vh] relative font-poppins ">
+    <main class="w-screen lg:h-[470vh] xsm:h-[450vh] relative font-poppins ">
         <div id="background" class="w-full h-full lightMode dark:text-white xsm:overflow-hidden">
 
             <div id="hero" class="w-full h-[100vh] flex flex-col">
@@ -52,8 +52,8 @@
                             <button class="lg:text-[1em] xsm:text-[0.9em] px-5  py-2 ml-2 bg-slate-700 text-white rounded-2xl duration-[400ms] all-ease hover:shadow-xl hover:shadow-black dark:hover:shadow-white dark:hover:shadow-lg dark:hover:text-black">Book a Table</button>
                     </div>
                     </div>
-                <div id="right" class="lg:w-1/2  lg:h-full xsm:w-full xsm:h-1/2">
-                    <img src="./src/assets/images/vegiBowl.webp" alt="Something went wrong " class="w-full lg:xsm:mt-0 xsm:mt-10">
+                <div id="right" class="lg:w-1/2  lg:h-full xsm:w-full xsm:h-1/2 flex justify-center items-center">
+                    <img src="./src/assets/images/vegiBowl.webp" alt="Something went wrong " class="lg:w-full xsm:w-[90%] lg:xsm:mt-0 xsm:mt-10 ">
                 </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     <h1 class="text-[3.5em]">Top List</h1>
                     <p class="text-[0.8em] ">All Our Best Picks in One Delicious Snap</p>
                 </div>
-                <div id="top-pick-cont" class="w-full h-[80vh] px-[3rem] grid lg:grid-cols-5 lg:grid-rows-1 xsm:grid-cols-2  xsm:grid-rows-3 xsm:gap-4 lg:justify-items-center lg:items-center ">
+                <div id="top-pick-cont" class="w-full h-[80vh] px-[3rem] grid lg:grid-cols-5 lg:grid-rows-1 xsm:grid-cols-2  xsm:grid-rows-3 xsm:gap-x-12 lg:gap-0 lg:justify-items-center lg:items-center ">
                    <div class="group foodCard lg:w-[15rem] lg:h-[18rem] xsm:w-[8.5rem] xsm:h-[12rem] hover:bg-slate-700 dark:hover:bg-[#ccc] dark:shadow-white ease-linear duration-[200ms] bg-white dark:bg-slate-600 rounded shadow-md shadow-black text-center ">
                     <div id="image"  class=" h-[50%] w-full overflow-hidden">
                         <img src="./src/assets/images/pavBhaji.webp" alt="" class="group-hover:scale-[1.5] duration-500">
@@ -107,9 +107,9 @@
                 </div>
             </div> 
 
-            <div id="newItem" class="w-full lg:h-screen xsm:h-[80vh] flex lg:flex-row xsm:flex-col">
-                <div id="left" class="lg:w-1/2 xsm:w-full lg:h-full xsm:h-1/2">
-                    <img src="./src/assets/images/Noodle.webp" alt="">
+            <div id="newDish" class="w-full lg:h-screen xsm:h-[80vh] flex lg:flex-row xsm:flex-col">
+                <div id="left" class="lg:w-1/2 xsm:w-full lg:h-full xsm:h-1/2 flex justify-center items-center">
+                    <img src="./src/assets/images/Noodle.webp" alt="" class="lg:w-full xsm:w-[90%] lg:xsm:mt-0 xsm:mt-10">
                 </div>
                 <div id="right" class="lg:w-1/2 xsm:w-full  lg:h-full xsm:1/2 flex flex-col justify-center xsm:items-center lg:items-start ">
                     <h1 class="lg:text-[3.5em] xsm:text-[2.5em]">Our New Dish</h1>
@@ -123,7 +123,7 @@
             </div>
             <div id="promoteAndIos" class="w-full lg:h-[60vh]  xsm:h-[40vh] flex flex-col justify-center items-center">
 
-                <h1 class="lg:text-[3em] xsm:text-[2em]"><span class="text-red-500">Spice</span><span class="text-orange-500">Saga</span> is available <br>for Android and IOS</h1>
+                <h1 class="lg:text-[3em] xsm:text-[1.8em]"><span class="text-red-500">Spice</span><span class="text-orange-500">Saga</span> is available <br>for Android and IOS</h1>
                 <div class="flex lg:w-[40%] xsm:w-[80%] mt-8">
                     <button class="bg-slate-600 text-white flex justify-center items-center flex-wrap lg:px-5 xsm:px-2 rounded-xl mr-5 hover:shadow-xl hover:shadow-black dark:hover:shadow-lg dark:hover:shadow-white duration-[400ms] ease-linear"><i class="ri-google-play-fill lg:text-[2rem] xsm:text-[1.8rem]"></i><p class="font-bold lg:text-[0.8em] xsm:text-[0.6em] ml-2">Get it on<br>Google play</p></button>
                     <button class="bg-slate-600 text-white flex justify-center items-center flex-wrap lg:px-5 xsm:px-2 rounded-xl hover:shadow-xl hover:shadow-black dark:hover:shadow-lg dark:hover:shadow-white duration-[400ms] ease-linear"><i class="ri-apple-fill lg:text-[2rem] xsm:text-[1.8rem]"></i><p class="font-bold lg:text-[0.8em] xsm:text-[0.6em] ml-2">Download on<br>App Store</p></button>
@@ -131,7 +131,7 @@
             </div>
             <div id="services" class="w-full lg:h-[60vh] xsm:h-[50vh] flex flex-col items-center">
                 <div class="w-full lg:h-[20%] flex justify-center items-center">
-                    <h1 class="lg:text-[3.5em] xsm:text-[2.5em]">Our Services</h1>
+                    <h1 class="lg:text-[3.5em] xsm:text-[2.5em] xsm:mb-5 lg:mb-0">Our Services</h1>
                 </div>
                 <div class="lg:w-[50%] xsm:w-[80%] lg:h-[80%] xsm:h-[70%] grid lg:grid-cols-4 xsm:grid-cols-2  lg:grid-rows-1 xsm:grid-rows-2 gap-5 justify-items-center items-center">
                     <div class="w-[7rem] h-[7rem] rounded-xl bg-white dark:bg-slate-700 dark:hover:bg-[#ccc] dark:text-white text-black shadow-lg shadow-black dark:shadow-white hover:bg-slate-700 hover:text-white  dark:hover:text-black  duration-[200ms] ease-linear flex flex-col justify-evenly items-center text-[0.7em] font-bold"><i class="ri-smartphone-line text-xl text-orange-600"></i>Online Booking</div>
