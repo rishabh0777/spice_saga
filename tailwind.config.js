@@ -17,7 +17,7 @@ module.exports = {
         'source-sans-pro': ['Source Sans Pro', 'sans-serif'],
       },
       screens:{
-        xsm:'375px'
+        xsm:'200px'
       }
     },
   },
