@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spiceSaga</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="customStyle.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&family=Nunito:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <main class="w-full h-[480vh] relative font-poppins">
+        <div id="background" class="w-full h-full lightMode dark:text-white">
+
+            <div id="hero" class="w-full h-[100vh] flex flex-col">
+                <nav id="navbar" class="h-[10vh] w-full fixed top-0 transition-transform duration-500 flex justify-between items-center">
+                    <h3 id="logo" class="ml-10 text-2xl font-roboto font-extrabold text-orange-500"><span class="text-red-500">Spice</span>Saga</h3>
+                    
+                        <ul class="w-[30%] h-full flex justify-evenly items-center text-white text-[1em] ">
+                            <a href="#hero" class="hover:bg-orange-600 hover:shadow-xl hover:shadow-black dark:hover:bg-slate-700 dark:hover:shadow-lg dark:hover:shadow-white rounded-xl duration-[200ms] ease-linear">
+                                <li class="px-4 py-2 text-[0.8em]">Home</li>
+                            </a>
+                            <a href="#Top-pick" class="hover:bg-orange-600 hover:shadow-xl hover:shadow-black dark:hover:bg-slate-700 dark:hover:shadow-lg dark:hover:shadow-white rounded-xl duration-[200ms] ease-linear">
+                                <li class="px-4 py-2 text-[0.8em]">Menu</li>
+                            </a>
+                            <a href="#footer" class="hover:bg-orange-600 hover:shadow-xl hover:shadow-black dark:hover:bg-slate-700 dark:hover:shadow-lg dark:hover:shadow-white rounded-xl duration-[200ms] ease-linear">
+                                <li class="px-4 py-2 text-[0.8em]">About</li>
+                            </a>
+                            <i id="dark-mode-toggle" class="ri-moon-fill text-yellow-500 cursor-pointer font-bold"></i>
+                        </ul>
+                </nav>
+                <div id="hero-cont" class="w-full h-full flex">
+                    <div id="left" class="w-1/2 h-full flex justify-center items-center flex-col">
+                        <h1 class="text-[3.5em] text-left">
+                            Your Food is <br> waiting for you
+                        </h1>
+                        <P class="w-[60%] text-[0.8em] mt-7">
+                            We Bring Proffessional Chefs To Your Home To Prepare Delicious.
+                            Customized Meals At Fraction of The Cost, Get Your Food Early Way And Don't Worry About The Time
+                        </P>
+                        
+                        <div class="w-[60%] h-[10%] flex items-center mt-5">
+                            
+                            <button class="px-5 mr-5 bg-orange-600  hover:shadow-xl hover:shadow-black text-white py-2 rounded-2xl  duration-[400ms] all-ease dark:hover:shadow-white dark:hover:shadow-lg dark:hover:text-black">Food Menu</button>
+                            <button class="px-5  py-2 ml-2 bg-slate-700 text-white rounded-2xl duration-[400ms] all-ease hover:shadow-xl hover:shadow-black dark:hover:shadow-white dark:hover:shadow-lg dark:hover:text-black">Book a Table</button>
+                    </div>
+                    </div>
+                <div id="right" class="w-1/2 h-full">
+                    <img src="./assets/images/vegiBowl.webp" alt="Something went wrong " class="w-full">
+                </div>
+                </div>
+            </div>
+            <div id="Top-pick" class="w-full h-[100vh] flex flex-col">
+                <div id="head" class="w-full h-[20vh] text-center">
+                    <h1 class="text-[3.5em]">Top List</h1>
+                    <p class="text-[0.8em] ">All Our Best Picks in One Delicious Snap</p>
+                </div>
+                <div id="top-pick-cont" class="w-full h-[80vh] px-[3rem] grid lg:grid-cols-5 lg:grid-rows-1 justify-items-center items-center ">
+                   <div class="group foodCard w-[15rem] h-[18rem] hover:bg-slate-700 dark:hover:bg-[#ccc] dark:shadow-white ease-linear duration-[200ms] bg-white dark:bg-slate-600 rounded shadow-md shadow-black text-center">
+                    <div id="image"  class=" h-[50%] w-full overflow-hidden">
+                        <img src="./assets/images/pavBhaji.webp" alt="" class="group-hover:scale-[1.5] duration-500">
+                    </div>
+                    <p class="text-lg mt-1 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Rating <i class="ri-star-fill text-orange-600"></i> 4.5</p>
+                    <h3 class="font-bold mt-2 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Paav Bhaaji</h3>
+                    <button class="px-8 mt-5 py-2 bg-orange-500 text-white rounded-lg hover:shadow-lg hover:text-black hover:shadow-white ease-linear duration-[400ms] dark:hover:shadow-black dark:hover:shadow-lg dark:hover:text-black">Buy Now Rs 399</button>
+                </div>
+                   <div class="group foodCard w-[15rem] h-[18rem] hover:bg-slate-700 dark:hover:bg-[#ccc] dark:shadow-white ease-linear duration-[200ms] bg-white dark:bg-slate-600 rounded shadow-md shadow-black text-center">
+                    <div id="image"  class=" h-[50%] w-full overflow-hidden">
+                        <img src="./assets/images/pasta.webp" alt="" class="group-hover:scale-[1.5] duration-500">
+                    </div>
+                   <p class="text-lg mt-1 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Rating <i class="ri-star-fill text-orange-600"></i> 4.3</p>
+                   <h3 class="font-bold mt-2 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Pasta</h3>
+                   <button class="px-8 mt-5 py-2 bg-orange-500 text-white rounded-lg hover:shadow-lg hover:text-black hover:shadow-white ease-linear duration-[400ms] dark:hover:shadow-black dark:hover:shadow-lg dark:hover:text-black">Buy Now Rs 299</button>
+                   </div>
+                   <div class="group foodCard w-[15rem] h-[18rem] hover:bg-slate-700 dark:hover:bg-[#ccc] dark:shadow-white ease-linear duration-[200ms] bg-white dark:bg-slate-600 rounded shadow-md shadow-black text-center">
+                    <div id="image"  class=" h-[50%] w-full overflow-hidden">
+                        <img src="./assets/images/biryani.webp" alt="" class="group-hover:scale-[1.5] duration-500">
+                    </div>
+                    <p class="text-lg mt-1 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Rating <i class="ri-star-fill text-orange-600"></i> 4.4</p>
+                    <h3 class="font-bold mt-2 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Chicken Biryani</h3>
+                    <button class="px-8 mt-5 py-2 bg-orange-500 text-white rounded-lg hover:shadow-lg hover:text-black hover:shadow-white ease-linear duration-[400ms] dark:hover:shadow-black dark:hover:shadow-lg dark:hover:text-black">Buy Now Rs 499</button>
+                </div>
+                   <div class="group foodCard w-[15rem] h-[18rem] hover:bg-slate-700 dark:hover:bg-[#ccc] dark:shadow-white ease-linear duration-[200ms] bg-white dark:bg-slate-600 rounded shadow-md shadow-black text-center">
+                    <div id="image"  class=" h-[50%] w-full overflow-hidden">
+                        <img src="./assets/images/nanChicken.webp" alt="" class="group-hover:scale-[1.5] duration-500">
+                    </div>
+                    <p class="text-lg mt-1 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Rating <i class="ri-star-fill text-orange-600"></i> 4.6</p>
+                    <h3 class="font-bold mt-2 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Naan Chicken Tikka Masala</h3>
+                    <button class="px-8 mt-5 py-2 bg-orange-500 text-white rounded-lg hover:shadow-lg hover:text-black hover:shadow-white ease-linear duration-[400ms] dark:hover:shadow-black dark:hover:shadow-lg dark:hover:text-black">Buy Now Rs 599</button>
+                </div>
+                   <div class="group foodCard w-[15rem] h-[18rem] hover:bg-slate-700 dark:hover:bg-[#ccc] dark:shadow-white ease-linear duration-[200ms] bg-white dark:bg-slate-600 rounded shadow-md shadow-black text-center">
+                    <div id="image" class=" h-[50%] w-full overflow-hidden" >
+                        <img src="./assets/images/kadhaiPaneer.webp" alt="" class="group-hover:scale-[1.5] duration-500">
+                    </div>
+                    <p class="text-lg mt-1 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Rating <i class="ri-star-fill text-orange-600"></i> 4.8</p>
+                    <h3 class="font-bold mt-2 group-hover:text-white dark:group-hover:text-black ease-linear duration-[200ms]">Kadhai Paneer Rice Chapati</h3>
+                    <button class="px-8 mt-5 py-2 bg-orange-500 text-white rounded-lg hover:shadow-lg hover:text-black hover:shadow-white ease-linear duration-[400ms] dark:hover:shadow-black dark:hover:shadow-lg dark:hover:text-black">Buy Now Rs 499</button>
+                </div>
+
+                </div>
+            </div> 
+
+            <div id="newItem" class="w-full h-screen flex">
+                <div id="left" class="w-1/2 h-full ">
+                    <img src="./assets/images/Noodle.webp" alt="">
+                </div>
+                <div id="right" class="w-1/2 h-full flex flex-col justify-center ">
+                    <h1 class="text-[3.5em]">Our New Dish</h1>
+                    <h2 class="tex-[2em] font-bold text-orange-600 mt-5">Soba Noodles</h2>
+                    <p class="w-[60%] text-[0.8em] mt-5">Experience the perfect blend of flavors with our delicious veggie noodle bowl, featuring fresh vegetables, savory mushrooms, and crunchy peanuts, all tossed in a delectable sauce. A delightful treat for your taste buds!</p>
+                    <div class="w-[60%] h-[10%] flex items-center mt-5">
+                        <button class="px-5  py-2 bg-orange-600 hover:shadow-xl hover:shadow-black ease-linear duration-[400ms] text-white rounded-2xl dark:hover:shadow-white dark:hover:shadow-lg dark:hover:text-black">Check <i class="ri-arrow-right-line"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <div id="promoteAndIos" class="w-full h-[60vh] flex flex-col justify-center items-center">
+
+                <h1 class="text-[3em] "><span class="text-red-500">Spice</span><span class="text-orange-500">Saga</span> is available <br>for Android and IOS</h1>
+                <div class="flex w-[40%] mt-8">
+                    <button class="bg-slate-600 text-white flex justify-center items-center flex-wrap px-5 rounded-xl mr-5 hover:shadow-xl hover:shadow-black dark:hover:shadow-lg dark:hover:shadow-white duration-[400ms] ease-linear"><i class="ri-google-play-fill text-[2rem]"></i><p class="font-bold text-[0.8em] ml-2">Get it on<br>Google play</p></button>
+                    <button class="bg-slate-600 text-white flex justify-center items-center flex-wrap px-5 rounded-xl hover:shadow-xl hover:shadow-black dark:hover:shadow-lg dark:hover:shadow-white duration-[400ms] ease-linear"><i class="ri-apple-fill text-[2rem]"></i><p class="font-bold text-[0.8em] ml-2">Download on<br>App Store</p></button>
+                </div>
+            </div>
+            <div id="services" class="w-full h-[60vh] flex flex-col items-center">
+                <div class="w-full h-[20%] flex justify-center items-center">
+                    <h1 class="text-[3.5em]">Our Services</h1>
+                </div>
+                <div class="w-[50%] h-[80%] grid grid-cols-4 grid-rows-1 justify-items-center items-center">
+                    <div class="w-[7rem] h-[7rem] rounded-xl bg-white dark:bg-slate-700 dark:hover:bg-[#ccc] dark:text-white text-black shadow-lg shadow-black dark:shadow-white hover:bg-slate-700 hover:text-white  dark:hover:text-black  duration-[200ms] ease-linear flex flex-col justify-evenly items-center text-[0.7em] font-bold"><i class="ri-smartphone-line text-xl text-orange-600"></i>Online Booking</div>
+                    <div class="w-[7rem] h-[7rem] rounded-xl bg-white dark:bg-slate-700 dark:hover:bg-[#ccc] dark:text-white text-black shadow-lg shadow-black dark:shadow-white hover:bg-slate-700 hover:text-white  dark:hover:text-black duration-[200ms] ease-linear flex flex-col justify-evenly items-center text-[0.7em] font-bold"><i class="ri-bowl-line text-xl text-orange-600"></i>Catering Service</div>
+                    <div class="w-[7rem] h-[7rem] rounded-xl bg-white dark:bg-slate-700 dark:hover:bg-[#ccc] dark:text-white text-black shadow-lg shadow-black dark:shadow-white hover:bg-slate-700 duration-[200ms] hover:text-white dark:hover:text-black  ease-linear flex flex-col justify-evenly items-center text-[0.7em] font-bold"><i class="ri-user-add-line text-xl text-orange-600"></i>Membership</div>
+                    <div class="w-[7rem] h-[7rem] rounded-xl bg-white dark:bg-slate-700 dark:hover:bg-[#ccc] dark:text-white text-black shadow-lg shadow-black dark:shadow-white hover:bg-slate-700 duration-[200ms] hover:text-white  dark:hover:text-black  ease-linear flex flex-col justify-evenly items-center text-[0.7em] font-bold"><i class="ri-truck-line text-xl text-orange-600"></i>Delivery Service</div>
+
+                </div>
+            </div>
+            <div id="footer" class="w-full h-[60vh] bg-slate-800 text-white flex flex-col items-center justify-center">
+                <div class="w-full h-[80%] flex flex-wrap justify-around items-start py-10">
+                    <!-- About Section -->
+                    <div class="w-[20%] flex flex-col items-start">
+                        <h3 class="text-xl font-bold text-orange-500 mb-4">About <span class="text-red-500">Spice</span>Saga</h3>
+                        <p class="text-[0.9em]">
+                            At SpiceSaga, we bring professional chefs to your home to prepare delicious, customized meals at a fraction of the cost. Enjoy a wide range of cuisines, all prepared with the finest ingredients.
+                        </p>
+                    </div>
+            
+                    <!-- Quick Links -->
+                    <div class="w-[20%] flex flex-col items-start">
+                        <h3 class="text-xl font-bold text-orange-500 mb-4">Quick Links</h3>
+                        <ul>
+                            <li class="mb-1"><a href="#" class="hover:text-orange-500 ease-linear duration-[200ms] text-[0.9em]">Home</a></li>
+                            <li class="mb-1"><a href="#" class="hover:text-orange-500 ease-linear duration-[200ms] text-[0.9em]">Menu</a></li>
+                            <li class="mb-1"><a href="#" class="hover:text-orange-500 ease-linear duration-[200ms] text-[0.9em]">About</a></li>
+                            <li class="mb-1"><a href="#" class="hover:text-orange-500 ease-linear duration-[200ms] text-[0.9em]">Services</a></li>
+                            <li class="mb-1"><a href="#" class="hover:text-orange-500 ease-linear duration-[200ms] text-[0.9em]">Contact</a></li>
+                        </ul>
+                    </div>
+            
+                    <!-- Contact Information -->
+                    <div class="w-[20%] flex flex-col items-start">
+                        <h3 class="text-xl font-bold text-orange-500 mb-4">Contact Us</h3>
+                        <p class="text-[0.9]">
+                            123 Food Street,<br>
+                            Culinary City, 45678<br>
+                            Phone: (123) 456-7890<br>
+                            Email: info@spicesaga.com
+                        </p>
+                    </div>
+            
+                    <!-- Follow Us -->
+                    <div class="w-[20%] flex flex-col items-start">
+                        <h3 class="text-xl font-bold text-orange-500 mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="hover:text-orange-500 ease-linear duration-[200ms]"><i class="ri-facebook-fill text-2xl"></i></a>
+                            <a href="#" class="hover:text-orange-500 ease-linear duration-[200ms]"><i class="ri-instagram-line text-2xl"></i></a>
+                            <a href="#" class="hover:text-orange-500 ease-linear duration-[200ms]"><i class="ri-twitter-fill text-2xl"></i></a>
+                            <a href="#" class="hover:text-orange-500 ease-linear duration-[200ms]"><i class="ri-youtube-fill text-2xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="w-full h-[20%] flex justify-center items-center border-t border-gray-600">
+                    <p class="text-sm">&copy; 2024 SpiceSaga. All rights reserved.</p>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

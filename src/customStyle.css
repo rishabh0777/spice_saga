@@ -1,0 +1,16 @@
+@layer utilities {
+    .lightMode{
+      @apply bg-gradient-to-r;
+      background: rgb(224,232,235);
+      background: linear-gradient(79deg, rgba(224,232,235,1) 32%, rgba(142,124,170,1) 67%); 
+    }}
+    @layer utilities{
+    .darkMode{
+      @apply bg-gradient-to-r;
+      background: rgb(11,11,11);
+      background: linear-gradient(79deg, rgba(11,11,11,1) 32%, rgba(12,4,20,1) 76%); 
+
+    }
+    }
+  
+  
